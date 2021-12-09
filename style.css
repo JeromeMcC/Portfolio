@@ -68,11 +68,26 @@ color: azure;
 }
 
 .big{
+   
     justify-content: center;
     border: azure;
     border-style: solid;
     color: azure;
     height: 400px;
     width: 400px;
-    margin-left: 461px;
+    margin-left: auto;
+    margin-right: auto;
+
+        
+    
 }
+ h2{
+    display:inline; 
+    color:blue;
+     border-right: 10px solid blue;
+
+ }
+
+ .aboutme{
+     display: flex;
+ }
