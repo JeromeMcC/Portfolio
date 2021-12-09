@@ -4,13 +4,14 @@ background-image: url("./assets/BackgroundImage.jpg");
 background-size: cover;
 background-position:center;
 height: fit-content;
+color: azure;
 }
 
 .header {
     padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #416170;
-    color:whitesmoke
+    color:azure
 }
 
 .header h1 {
@@ -60,24 +61,21 @@ height: fit-content;
     
 }
 
-.card h3 {
+.textbox {
     background-color: cadetblue;
     position: relative;
-    bottom: 25%;
-}
-.card p {
-    background-color: cadetblue;
-    position: relative;
-    bottom: 25%;
+    bottom: 50%;
+    display: inline-block;
+    line-height: 0px;
 }
 
 .big{
-    display: grid;
+    display: inline;
     justify-content: center;
-    border: white;
+    border: azure;
     border-width: 2px;
     border-style: solid;
-    color: white;
+    color: azure;
     height: 400px;
-    width: 400 px;
+    width: 400px;
 }
