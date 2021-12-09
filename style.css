@@ -41,8 +41,6 @@ color: azure;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
     color: azure;
     
 }
@@ -70,12 +68,11 @@ color: azure;
 }
 
 .big{
-    display: inline;
     justify-content: center;
     border: azure;
-    border-width: 2px;
     border-style: solid;
     color: azure;
     height: 400px;
     width: 400px;
+    margin-left: 461px;
 }
