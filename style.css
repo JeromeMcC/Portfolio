@@ -1,16 +1,15 @@
 
 body {
-background-image: url("./assets/BackgroundImage.jpg")
-;
+background-image: url("./assets/BackgroundImage.jpg");
 background-size: cover;
 background-position:center;
-max-height: fit-content;
+height: fit-content;
 }
 
 .header {
-    padding: 20px;
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #416170;
     color:whitesmoke
 }
 
@@ -36,7 +35,49 @@ max-height: fit-content;
     display: inline-block;
     margin-left: 25px;
 }
-.little img {
-    max-height: 300px;
-    max-width: 300px;
+
+.little{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: azure;
+    
+}
+
+.card{ 
+    border-style: solid;
+    border-color: cadetblue;
+    margin: 15px;
+    height: 200px;
+    width: 400px;
+}
+
+.card img {
+    height: 200px;
+    width: 400px;
+    
+}
+
+.card h3 {
+    background-color: cadetblue;
+    position: relative;
+    bottom: 25%;
+}
+.card p {
+    background-color: cadetblue;
+    position: relative;
+    bottom: 25%;
+}
+
+.big{
+    display: grid;
+    justify-content: center;
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    height: 400px;
+    width: 400 px;
 }
