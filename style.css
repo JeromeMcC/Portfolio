@@ -94,11 +94,12 @@ color: azure;
 
  .aboutme{
      display: flex;
+     
 
  }
- .aboutme p {
-     text-align: center;
+ .aboutp {
+    display: flex; 
+    text-align: center;
      margin-top: 48px;
-     font-size: 16px;
  }
- .navf
+ 
